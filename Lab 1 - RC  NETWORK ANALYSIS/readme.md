@@ -1,6 +1,6 @@
 # RC Circuit Design and Simulation - README
 
-Author: **Afzal Malik**  
+Author: **Afzal Malik**
 S.No.: **9**
 
 ## Objective
@@ -20,7 +20,7 @@ Hence, RC time constant is 0.837 milisecond
 ## Schematic in LT SPICE
 Input given is the square pulse using the following command:  
 `PULSE(0 5 0 1u 1u 6m 12m)`    
-Suitable time period should be choosen for the Pulse Signal by observing the RC time constant.
+Suitable time period should be chosen for the Pulse Signal by observing the RC time constant.
 
 ![Schematic](https://github.com/afzalamu/LTSpice-Lab/assets/124300839/43510fdd-4c56-4780-ba39-6618ac976204)
 
@@ -32,12 +32,13 @@ The simulation results were in accordance with the given specification, as Fc ob
 
 ![Cutoff Frequency](https://github.com/afzalamu/LTSpice-Lab/assets/124300839/3fc975ed-ecbb-4182-989a-d2d7c96b2cb7)  
 
-Now , as we know the capacitor gets fully charged in 5* Time constant and we will verify it using transient analysis and calculate the charging time of capacitor from the resulting waveforms.  
-Transient analysis is performed using :  
+Now, as we know the capacitor gets fully charged in 5 * Time constant, and we will verify it using transient analysis and calculate the charging time of the capacitor from the resulting waveforms.  
+Transient analysis is performed using:  
 `.tran 15m`  
-Suitable time period should be choosen in the above command by observing the time period of the given input pulse signal .  
+Suitable time period should be chosen in the above command by observing the time period of the given input pulse signal.  
 ![charge time](https://github.com/afzalamu/LTSpice-Lab/assets/124300839/1f561bb0-1e85-4d1e-b9b5-766f8ed587dd)  
-From the resulting waveform we can observe time taken to get capacitor charged to its 99 percent value is near to 5 * RC time constant value and hence result are verified . 
+From the resulting waveform, we can observe that the time taken to get the capacitor charged to its 99 percent value is near to 5 * RC time constant value, and hence the results are verified.
+
 ---
 Feel free to reach out to the author for any questions or clarifications.  
 Let's keep exploring and learning together! 😊
