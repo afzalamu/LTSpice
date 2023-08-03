@@ -20,12 +20,13 @@ Value of Resistor (R) = 837.66 ohms
 Input given is the square pulse using the following command:  
 `PULSE(0 5 0 1u 1u 6m 12m)`  
 
-This circuit will act as a Low Pass Filter with a cutoff frequency of 190Hz. We verify it using the simulation by performing AC analysis and plotting the Transfer Function with the following command:  
-`.ac dec 10 1 250`
 
 ![Schematic](https://github.com/afzalamu/LTSpice-Lab/assets/124300839/43510fdd-4c56-4780-ba39-6618ac976204)
 
 ## Simulation Results
+This circuit will act as a Low Pass Filter with a cutoff frequency of 190Hz. We verify it using the simulation by performing AC analysis and plotting the Transfer Function with the following command:  
+`.ac dec 10 1 250`
+
 The simulation results were in accordance with the given specification, as Fc obtained from the Transfer Function graph is also 190Hz.
 
 ![Cutoff Frequency](https://github.com/afzalamu/LTSpice-Lab/assets/124300839/3fc975ed-ecbb-4182-989a-d2d7c96b2cb7)
