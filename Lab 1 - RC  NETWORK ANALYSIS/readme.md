@@ -1,6 +1,7 @@
 # RC Circuit Design and Simulation - README
 
-Author: **Afzal Malik**
+Author: **Afzal Malik**  
+
 S.No.: **9**
 
 ## Objective
